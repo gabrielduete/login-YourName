@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* Colocando a imagem de fundo e ajustando */
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-blend-mode: luminosity;
+}
+/*Conteudo do meu section*/
+#conteudo{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    background-color: rgba(49, 3, 60, 0.844);
+    position: absolute;
+    top: calc(50% - 180px);
+    left: calc(50% - 200px);
+    border-radius: 20px;
+    box-shadow: 1px 10px 70px rgba(151, 13, 186, 0.844) ;
+
+}
+/*Estilizando o meu botão ENTRAR*/
+#BOTAO{
+    font-family: Helvetica, sans-serif;
+    cursor: pointer;
+    border: 2px solid #ca00d5;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: initial;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 100px;
+    background-color: rgb(83, 4, 97);
+    outline: none;
+    position: absolute;
+}
+
+/*Pequena transição ao passar o mouse no botão*/
+#BOTAO {
+    transition-duration: 0.4s;
+  }
+
+#BOTAO:hover {
+    background-color: rgb(187, 7, 223); 
+    color: white;
+}
+
+/*Estilizando os INPUTS*/
+#inputs{
+    outline: none;
+    width: 250px;
+    height: 25px;
+    border: none;
+    background: none;
+    margin: 10px;
+    border-bottom: 5px solid rgb(172, 5, 201);
+    color: white;
+    font-size: 18px;
+}
+
+/* Mudando a cor do placeholder*/
+::-webkit-input-placeholder {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+ }
+ 
+ :-moz-placeholder { 
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+ }
+ 
+ ::-moz-placeholder { 
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+ }
+ 
+ :-ms-input-placeholder {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: red;  
+}
+
+/*Icones do Font Awesome*/
+#icons{
+    margin-top: 20px;
+    text-align: center;
+}
+
+i{
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+/*Estilizando alguns textos*/
+span{
+    font-size: 13px;    
+}
+
+h1{
+    text-align: center;
+    border-bottom: 2px solid rgb(172, 5, 201);
+    
+}
+
+hr{
+    color: rgb(187, 7, 223);
+}
+
+/* FINISH XD */
