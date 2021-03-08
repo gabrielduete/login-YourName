@@ -13,6 +13,8 @@
 
 O projeto **Login - Your name** é uma tela de login com uma tematica de Your Name, um filme de animação japonesa lançado em 2016. O site está completamente responsivo para todos os tipos de dispositivos(pelo menos é o que eu creio 😜).
 
+Vídeo no youtube mostrando o código + responsividade: https://youtu.be/LvMzGVjpiC0
+
 ## 💻Tecnologias utilizadas
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
